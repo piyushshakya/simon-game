@@ -8,21 +8,22 @@ body{
     font-family: monospace;
     font-weight: bolder;
     font-size: 2.5rem;
+    padding: 1% 0;
 }
 
 .container{
-    display: block;
-    width: 50%;
-    margin: auto;
+    display: inline;
+    /* width: 50%; */
+    /* margin: auto; */
 }
 
 .btn{
     display: inline-block;
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     border-radius: 20%;
     border: 10px solid black;
-    margin: 3%;
+    margin: 17px;
 }
 
 .green{
@@ -48,4 +49,12 @@ body{
 
 .gameOver{
     background-color: red;
+}
+
+@media (max-width: 700px){
+.btn{
+    width: 120px;
+    height: 120px;
+}
+
 }
